@@ -10,39 +10,77 @@
 </head>
 <body>
   
-  <div class="container">
+  <div class="container" style="background-color: black; color: white;">
+
+    <h1 class="text-center">JavaScript Calculator</h1>
 
     <div class="row">
-      <div class="col text-center" id="display">0</div>
+      <div class="col text-center p-3" id="display">0</div>
     </div>
 
     <div class="row d-flex">
-      <button class="col-6 flex-fill clear-all" id="clear">AC</button>
-      <button class="col-3 flex-fill operator" id="divide">/</button>
-      <button class="col-3 flex-fill operator" id="multiply">*</button>
+      <div class="col-6 g-1">
+        <button class="flex-fill clear-all btn btn-danger w-100" id="clear">AC</button>
+      </div>
+      <div class="col-3 g-1">
+        <button class="flex-fill clear-entry btn btn-danger w-100">CE</button>
+      </div>
+      <div class="col-3 g-1">
+        <button class="flex-fill operator btn btn-secondary w-100" id="divide">/</button>
+      </div>
     </div>
     <div class="row d-flex">
-      <button class="col-3 flex-fill number" id="seven">7</button>
-      <button class="col-3 flex-fill number" id="eight">8</button>
-      <button class="col-3 flex-fill number" id="nine">9</button>
-      <button class="col-3 flex-fill operator" id="subtract">-</button>
+      <div class="col-3 g-1">
+        <button class="flex-fill number btn btn-dark w-100" id="seven">7</button>
+      </div>
+      <div class="col-3 g-1">
+        <button class="flex-fill number btn btn-dark w-100" id="eight">8</button>
+      </div>
+      <div class="col-3 g-1">
+        <button class="flex-fill number btn btn-dark w-100" id="nine">9</button>
+      </div>
+      <div class="col-3 g-1">
+        <button class="flex-fill operator btn btn-secondary w-100" id="multiply">*</button>
+      </div>
     </div>
     <div class="row d-flex">
-      <button class="col-3 flex-fill number" id="four">4</button>
-      <button class="col-3 flex-fill number" id="five">5</button>
-      <button class="col-3 flex-fill number" id="six">6</button>
-      <button class="col-3 flex-fill operator" id="add">+</button>
+      <div class="col-3 g-1">
+        <button class="flex-fill number btn btn-dark w-100" id="four">4</button>
+      </div>
+      <div class="col-3 g-1">
+        <button class="flex-fill number btn btn-dark w-100" id="five">5</button>
+      </div>
+      <div class="col-3 g-1">
+        <button class="flex-fill number btn btn-dark w-100" id="six">6</button>
+      </div>
+      <div class="col-3 g-1">
+        <button class="flex-fill operator btn btn-secondary w-100" id="subtract">-</button>
+      </div>
     </div>
-    <div class="row">
-      <button class="col-3 flex-fill number" id="one">1</button>
-      <button class="col-3 flex-fill number" id="two">2</button>
-      <button class="col-3 flex-fill number" id="three">3</button>
-      <button class="col-3 flex-fill equals" id="equals">=</button>
+    <div class="row d-flex">
+      <div class="col-3 g-1">
+        <button class="flex-fill number btn btn-dark w-100" id="one">1</button>
+      </div>
+      <div class="col-3 g-1">
+        <button class="flex-fill number btn btn-dark w-100" id="two">2</button>
+      </div>
+      <div class="col-3 g-1">
+        <button class="flex-fill number btn btn-dark w-100" id="three">3</button>
+      </div>
+      <div class="col-3 g-1">
+        <button class="flex-fill operator btn btn-secondary w-100" id="add">+</button>
+      </div>
     </div>
-    <div class="row">
-      <button class="col-6 flex-fill number" id="zero">0</button>
-      <button class="col-3 flex-fill operator" id="decimal">.</button>
-      <button class="col-3 flex-fill clear-entry">CE</button>
+    <div class="row d-flex">
+      <div class="col-6 g-1">
+        <button class="flex-fill number btn btn-dark w-100" id="zero">0</button>
+      </div>
+      <div class="col-3 g-1">
+        <button class="flex-fill operator btn btn-dark w-100" id="decimal">.</button>
+      </div>
+      <div class="col-3 g-1">
+        <button class="flex-fill equals btn btn-primary w-100" id="equals">=</button>
+      </div>
     </div>
     
   </div>
